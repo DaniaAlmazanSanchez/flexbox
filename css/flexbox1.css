@@ -1,0 +1,28 @@
+.contenedor{
+    background-color: orangered;
+    width: 700px;
+    max-width: 600px;
+    height: 300px;
+    margin: 20px auto;
+    display: flex;  
+    flex-wrap: wrap;/*crearan una nueva liea si su contenedor es mas grande que el contene*/
+    justify-self: start;
+
+}
+
+div{
+    background-color: rgb(75, 140, 236);
+    color: white;
+    font-family: 'Playfair Display', serif;
+   
+    text-align: center;
+    height: 140px;/*alto*/
+    width: 140px;
+    font-size: 80px;
+    line-height: 100px;/*cebtrar elentos dentro*/
+    border: 1px solid;
+    margin: 2px;
+    
+    
+}
+
